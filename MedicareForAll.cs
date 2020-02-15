@@ -4,8 +4,8 @@ namespace MedicareForAll
 {
 	public class MedicareForAll : Mod
 	{
-        //public static string GithubUserName => "atenfyr";
-        //public static string GithubProjectName => "medicareforall";
+        public static string GithubUserName => "atenfyr";
+        public static string GithubProjectName => "medicareforall";
 
         public static class UsefulThings
         {
@@ -29,9 +29,8 @@ namespace MedicareForAll
             }
         }
 
-
         public MedicareForAll()
-		{
+        {
             Properties = ModProperties.AutoLoadAll;
         }
     }
