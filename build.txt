@@ -1,0 +1,3 @@
+displayName = Medicare For All
+author = Atenfyr
+version = 0.1.0
