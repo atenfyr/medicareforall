@@ -33,5 +33,10 @@ namespace MedicareForAll
         {
             Properties = ModProperties.AutoLoadAll;
         }
+
+        public override void Unload()
+        {
+            M4AWorld.serverConfig = null;
+        }
     }
 }
